@@ -20,11 +20,11 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
   - ECDSA P-256
   - Ed25519
 - ✅ Certificates
-  - `X509CertificateManaged` basic parsing (PEM/DER)
+  - `X509Certificate` basic parsing (PEM/DER)
 - ✅ Random
   - OS entropy wrapper (`CryptoRandom`)
 
-📦 Deliverable: `CryptoHives.Core`, `CryptoHives.Symmetric`, `CryptoHives.Asymmetric`, `CryptoHives.X509` (preview).  
+📦 Deliverable: `CryptoHives.Cryptography.Core`, `CryptoHives.Cryptography.Symmetric`, `CryptoHives.Cryptography.Asymmetric`, `CryptoHives.Cryptography.X509Certificates` (preview).  
 💡 This phase enables developers to **drop-in replace most .NET crypto** (AES, RSA, certs).  
 
 ---
@@ -40,7 +40,7 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
 - Formats: PKCS#8, PKCS#12 import/export  
 - Protocol Primitives: JWT, CMS (basic), TLS 1.3 cipher suite support  
 
-📦 Deliverable: `CryptoHives.Formats`, `CryptoHives.Protocols` (early).  
+📦 Deliverable: `CryptoHives.Cryptography.Formats`, `CryptoHives.Cryptography.Protocols` (early).  
 💡 This phase ensures **compatibility for TLS, JWT, and PKI-heavy apps**.  
 
 ---
@@ -55,7 +55,7 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
 - Protocols: SSH primitives, S/MIME  
 - Hybrid key agreement: ECDH + Kyber  
 
-📦 Deliverable: `CryptoHives.Hybrid`, `CryptoHives.KeyDerivation`.  
+📦 Deliverable: `CryptoHives.Cryptography.Hybrid`, `CryptoHives.Cryptography.KeyDerivation`.  
 💡 This phase makes CryptoHives attractive for **modern security frameworks**.  
 
 ---
@@ -73,7 +73,7 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
 - Hybrid certificates (X.509 classical + PQC)  
 - TLS 1.3 hybrid cipher suites  
 
-📦 Deliverable: `CryptoHives.PQC`.  
+📦 Deliverable: `CryptoHives.Cryptography.PQC`.  
 💡 This phase enables **quantum-safe applications** and keeps CryptoHives future-proof.  
 
 ---
@@ -87,7 +87,7 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
 - NIST validation vectors  
 - FIPS-compliant build mode  
 
-📦 Deliverable: `CryptoHives.Security`, `CryptoHives.TestVectors`.  
+📦 Deliverable: `CryptoHives.Cryptography.Utils`, `CryptoHives.TestVectors`.  
 💡 This phase ensures **trustworthiness for production + audits**.  
 
 ---
@@ -99,9 +99,9 @@ Each phase delivers a usable milestone, ensuring adoption is possible even befor
 - Samples & docs for JWT, TLS, cert validation  
 - Benchmarking suite  
 - Plug-in model for future algorithms  
-- Meta-package: `CryptoHives.All`  
+- Meta-package: `CryptoHives.Cryptography.All`  
 
-📦 Deliverable: Docs, samples, benchmarks, `CryptoHives.All`.  
+📦 Deliverable: Docs, samples, benchmarks, `CryptoHives.Cryptography.All`.  
 💡 This phase makes CryptoHives **developer-friendly and easy to adopt**.  
 
 ---

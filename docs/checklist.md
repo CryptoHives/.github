@@ -170,12 +170,15 @@ Some items are **required for compatibility** (e.g. `X509Certificate2` replaceme
 ---
 
 ### 📌 Priorities for First Release
-1. AES-GCM, ChaCha20-Poly1305  
-2. SHA-2, HMAC, HKDF  
+1. SHA-2, HMAC, HKDF  
+2. AES-GCM, ChaCha20-Poly1305  
 3. RSA-PSS, RSA-OAEP  
 4. ECDSA (P-256) and Ed25519  
-5. X.509 certificate parsing/validation  
-6. PQC: Kyber + Dilithium (hybrid support)  
+5. X.509 certificate creation/parsing/validation  
+6. X.509 CSR, CRL and OCSP support
+7. X.509 chain validation
+8. PKI (Public Key Infrastructure)
+9. PQC: Kyber + Dilithium (hybrid support)  
 
 ---
 

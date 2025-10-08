@@ -6,14 +6,14 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Root
-- **`CryptoHives`**
+- **`CryptoHives.Cryptography`**
   - Common utilities, constants, exceptions, and base interfaces.  
   - Example: `ICryptoAlgorithm`, `CryptoRandom`, error codes, algorithm registry.
 
 ---
 
 ## Symmetric Cryptography
-- **`CryptoHives.Symmetric`**
+- **`CryptoHives.Cryptography.Symmetric`**
   - `AesManaged` (AES in all modes: CBC, GCM, etc.)
   - `ChaCha20`, `ChaCha20Poly1305`
   - `Serpent`, `Camellia`, `Blowfish` (legacy/optional)
@@ -22,7 +22,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Hashing & MACs
-- **`CryptoHives.Hashing`**
+- **`CryptoHives.Cryptography.Hashing`**
   - `Sha256Managed`, `Sha512Managed`
   - `Sha3_256`, `Sha3_512`
   - `Blake2b`, `Blake3`
@@ -33,7 +33,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Key Derivation & Password Hashing
-- **`CryptoHives.KeyDerivation`**
+- **`CryptoHives.Cryptography.KeyDerivation`**
   - `HKDF`
   - `PBKDF2`
   - `scrypt`
@@ -42,7 +42,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Random Number Generators
-- **`CryptoHives.Random`**
+- **`CryptoHives.Cryptography.Random`**
   - Managed DRBGs (Hash/HMAC/CTR-DRBG)
   - OS entropy providers (`WindowsEntropy`, `LinuxEntropy`, `MacOSEntropy`)
   - Unified `CryptoRandom` interface
@@ -50,7 +50,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Public-Key Cryptography — Classical
-- **`CryptoHives.Asymmetric`**
+- **`CryptoHives.Cryptography.Asymmetric`**
   - `RsaManaged`
   - `EcdsaManaged` (P-256, P-384, P-521)
   - `EcdhManaged`
@@ -60,7 +60,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Public-Key Cryptography — Post-Quantum
-- **`CryptoHives.PQC`**
+- **`CryptoHives.Cryptography.PQC`**
   - **KEMs**
     - `Kyber` (ML-KEM)
     - `HQC`
@@ -72,7 +72,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Certificates & PKI
-- **`CryptoHives.X509`**
+- **`CryptoHives.Cryptography.X509Certificates`**
   - `X509CertificateManaged` (replacement for `X509Certificate2`)
   - Certificate parsing (PEM/DER)
   - Chain validation
@@ -82,7 +82,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Formats & Key Storage
-- **`CryptoHives.Formats`**
+- **`CryptoHives.Cryptography.Formats`**
   - PEM, DER, ASN.1 encoders/decoders
   - PKCS#1, PKCS#8, PKCS#12
   - JWK, OpenSSH key formats
@@ -91,7 +91,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Protocol Primitives
-- **`CryptoHives.Protocols`**
+- **`CryptoHives.Cryptography.Protocols`**
   - TLS cipher suites (1.2, 1.3)
   - SSH crypto
   - CMS/PKCS#7
@@ -101,7 +101,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Hybrid Crypto
-- **`CryptoHives.Hybrid`**
+- **`CryptoHives.Cryptography.Hybrid`**
   - Classical + PQC hybrids
   - HKDF integrations
   - Hybrid TLS handshake support
@@ -109,7 +109,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Side-Channel & Security Tools
-- **`CryptoHives.Security`**
+- **`CryptoHives.Cryptography.Utils`**
   - Constant-time comparison utilities
   - Memory zeroization
   - Timing attack mitigations
@@ -117,7 +117,7 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Test Vectors & Validation
-- **`CryptoHives.TestVectors`**
+- **`CryptoHives.Cryptography.TestVectors`**
   - NIST vectors
   - Wycheproof suite
   - RFC conformance
@@ -126,11 +126,11 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 ---
 
 ## Meta-Packages
-- `CryptoHives.Core` → Base utilities, randomness, hashing, symmetric ciphers  
-- `CryptoHives.Asymmetric` → Classical public-key crypto  
-- `CryptoHives.PQC` → Post-quantum crypto  
-- `CryptoHives.X509` → Certificates & PKI  
-- `CryptoHives.All` → Aggregates all above  
+- `CryptoHives.Cryptography.Core` → Base utilities, randomness, hashing, symmetric ciphers  
+- `CryptoHives.Cryptography.Asymmetric` → Classical public-key crypto  
+- `CryptoHives.Cryptography.PQC` → Post-quantum crypto  
+- `CryptoHives.Cryptography.X509Certificates` → Certificates & PKI  
+- `CryptoHives.Cryptography.All` → Aggregates all above  
 
 ---
 
@@ -138,11 +138,11 @@ Each subpackage can be delivered as its own NuGet package, but also bundled in a
 
 | Existing .NET class           | CryptoHives replacement             |
 |-------------------------------|-------------------------------------|
-| `System.Security.Cryptography.Aes` | `CryptoHives.Symmetric.AesManaged` |
-| `System.Security.Cryptography.RSA` | `CryptoHives.Asymmetric.RsaManaged` |
-| `System.Security.Cryptography.ECDsa` | `CryptoHives.Asymmetric.EcdsaManaged` |
-| `System.Security.Cryptography.X509Certificate2` | `CryptoHives.X509.X509CertificateManaged` |
-| `RandomNumberGenerator`       | `CryptoHives.Random.CryptoRandom`   |
+| `System.Security.Cryptography.Aes` | `CryptoHives.Cryptography.Symmetric.Aes` |
+| `System.Security.Cryptography.RSA` | `CryptoHives.Cryptography.Asymmetric.Rsa` |
+| `System.Security.Cryptography.ECDsa` | `CryptoHives.Cryptography.Asymmetric.Ecdsa` |
+| `System.Security.Cryptography.X509Certificate2` | `CryptoHives.Cryptography.X509Certificates.X509Certificate` |
+| `RandomNumberGenerator`       | `CryptoHives.Cryptography.Random.CryptoRandom`   |
 
 ---
 
