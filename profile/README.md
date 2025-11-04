@@ -1,13 +1,13 @@
 
-# CryptoHives 🐝🔐
+# CryptoHives Foundation 🐝🔐
 
 **Cross-platform, fully managed cryptography for .NET**
 
-CryptoHives is an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
+CryptoHives Foundation is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
 
 ---
 
-## Why CryptoHives?
+## Why CryptoHives Foundation?
 
 The current .NET ecosystem delegates many cryptographic operations (e.g., `X509Certificate2`, `RSA`) to the underlying OS libraries. This introduces limitations and inconsistencies:
 
@@ -15,7 +15,7 @@ The current .NET ecosystem delegates many cryptographic operations (e.g., `X509C
 - Behavior and edge-case handling can differ depending on the host system and the .NET version.
 - As an example, EdDSA certificate signature support is still missing due to lack of support on Windows and macOS. 
 
-By providing **managed implementations**, CryptoHives ensures:
+By providing **managed implementations**, CryptoHives Foundation ensures:
 
 - ✅ The same API and behavior, regardless of OS and .NET version 
 - ✅ Support for algorithms missing from the native platform  
@@ -28,7 +28,7 @@ By providing **managed implementations**, CryptoHives ensures:
 - Full re-implementation of .NET cryptographic primitives and APIs  
 - Drop-in replacements for platform-bound classes like `X509Certificate2`, `RSA`, elliptic curves and symmetric ciphers  
 - Strict adherence to established standards and test vectors for correctness  
-- Continued reliance on OS-level **only** where software implementation cannot guarantee sufficient security, e.g. entropy for secure random generators  
+- Continued reliance on OS-level **only** where software implementation cannot guarantee sufficient security, e.g. hardware entropy for secure random generators  
 
 ---
 
