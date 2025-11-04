@@ -1,7 +1,7 @@
 
-# CryptoHives Foundation 🐝🔐
+# 🛡️ CryptoHives Foundation 🐝
 
-**Cross-platform, fully managed cryptography for .NET**
+## **Cross-platform, fully managed cryptography for .NET**
 
 CryptoHives Foundation is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
 

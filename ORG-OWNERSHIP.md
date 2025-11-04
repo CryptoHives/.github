@@ -1,8 +1,9 @@
-﻿
-*The Keepers of the CryptoHives* is a collective authorship label representing the
-contributors to the *CryptoHives Foundation* projects.
+﻿# 🛡️ CryptoHives Foundation 🐝
 
-All rights are assigned to the *CryptoHives Foundation*.
+**The Keepers of the CryptoHives** is a collective authorship label representing the
+contributors to the **CryptoHives Foundation** projects.
+
+All rights are assigned to the **CryptoHives Foundation**.
 
 ---
 
@@ -21,9 +22,10 @@ subprojects.
 
 The following assets are under the control of the Foundation:
 
-- Trademarks (reg. pending): "CryptoHives Foundation"
-- GitHub Organization: [github.com/CryptoHives](https://github.com/CryptoHives)
+- Trademarks: "CryptoHives Foundation"  (reg. pending)
 - Primary Domains: [cryptohives.org](https://cryptohives.org), [cryptohives.de](https://cryptohives.de)
+- GitHub Organization: [github.com/CryptoHives](https://github.com/CryptoHives)
+- DevOps Organization: [github.com/CryptoHives](https://github.com/CryptoHives)
 - All registered or pending ownerships are assigned to: Martin Regen, Germany
 
 ---

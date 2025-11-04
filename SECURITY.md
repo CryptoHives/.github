@@ -1,6 +1,6 @@
-# 🛡️ Security Policy — CryptoHives
+# 🛡️ Security Policy — CryptoHives Foundation
 
-Thank you for helping to keep **CryptoHives** and its open-source ecosystem secure.
+Thank you for helping to keep **CryptoHives Foundation** and its open-source ecosystem secure.
 
 We take the security of our software seriously.  
 If you discover a potential vulnerability, please report it responsibly using the instructions below.

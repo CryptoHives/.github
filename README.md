@@ -2,7 +2,7 @@
 
 *CryptoHives Foundation* brings consistent, portable, and auditable cryptography to .NET — managed code first, OS quirks gone.
 
-# 🐝 CryptoHives Foundation .NET Packages
+## 🐝 CryptoHives Foundation .NET Packages
 
 *CryptoHives Foundation* is a collection of modern, high-assurance cryptographic libraries for .NET, developed and maintained by *The Keepers of the CryptoHives*. 
 Each package is designed for security, interoperability, and clarity — making it easy to build secure systems without sacrificing developer experience.
