@@ -31,7 +31,7 @@ The following assets are under the control of the Labs:
 ## 💬 Contact
 
 **Martin Regen**  
-Founder and Maintainer — CryptoHives Labs  
+Founder and Keeper — CryptoHives Labs  
 📧 info@cryptohives.org
 🌐 https://cryptohives.org
 
