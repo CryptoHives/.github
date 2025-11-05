@@ -1,10 +1,10 @@
-# 🛡️ CryptoHives Foundation 🐝
+# 🛡️ CryptoHives Labs 🐝
 
-*CryptoHives Foundation* brings consistent, portable, and auditable cryptography to .NET — managed code first, OS quirks gone.
+*CryptoHives Labs* brings consistent, portable, and auditable cryptography to .NET — managed code first, OS quirks gone.
 
-## 🐝 CryptoHives Foundation .NET Packages
+# 🐝 CryptoHives Labs .NET Packages
 
-*CryptoHives Foundation* is a collection of modern, high-assurance cryptographic libraries for .NET, developed and maintained by *The Keepers of the CryptoHives*. 
+*CryptoHives Labs* is a collection of modern, high-assurance cryptographic libraries for .NET, developed and maintained by *The Keepers of the CryptoHives*. 
 Each package is designed for security, interoperability, and clarity — making it easy to build secure systems without sacrificing developer experience.
 There are also supporting packages which optimize memory allocations for streaming and thread synchronization for high performance transformation pipelines and for cryptography workloads.
 
@@ -12,7 +12,7 @@ There are also supporting packages which optimize memory allocations for streami
 
 ## ✨ Overview
 
-The CryptoHives.Foundation project serves as the core building block for projects under the **CryptoHives Foundation** umbrella.
+The CryptoHives.Labs project serves as the core building block for projects under the **CryptoHives Labs** umbrella.
 
 All implementations are developed **from first principles**, without reliance on operating system or native platform crypto providers, ensuring:
 
@@ -24,7 +24,7 @@ All implementations are developed **from first principles**, without reliance on
 
 ## 🧪 Clean-Room Policy
 
-All code within CryptoHives Foundation is written and validated under **strict clean-room conditions**:
+All code within CryptoHives Labs is written and validated under **strict clean-room conditions**:
 
 - No reverse engineering or derived code from existing proprietary libraries  
 - Implementations are verified against public specifications and test vectors  
@@ -80,6 +80,6 @@ Please see the [Contributing Guide](https://github.com/CryptoHives/.github/blob/
 
 ---
 
-**CryptoHives Foundation — Secure. Deterministic. Performant.**
+**CryptoHives Labs — Secure. Deterministic. Performant.**
 
 © 2025 The Keepers of the CryptoHives. All rights reserved.
