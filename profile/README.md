@@ -1,13 +1,13 @@
 
-# 🛡️ CryptoHives Labs 🐝
+# 🛡️ CryptoHives Open Source Initiative 🐝
 
 ## **Cross-platform, fully managed cryptography for .NET**
 
-CryptoHives Labs is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
+**CryptoHives Open Source Initiative** is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
 
 ---
 
-## Why CryptoHives Labs?
+## Why CryptoHives Open Source Initiative?
 
 The current .NET ecosystem delegates many cryptographic operations (e.g., `X509Certificate2`, `RSA`) to the underlying OS libraries. This introduces limitations and inconsistencies:
 
@@ -35,4 +35,4 @@ Providing **managed implementations** ensures:
 
 ## Vision
 
-A world where .NET developers can rely on **consistent, portable, and auditable cryptography**, independent of OS quirks—while still benefiting from the strongest available randomness sources.
+A world where .NET developers can rely on **consistent, portable, and auditable cryptography**, independent of OS quirks.
