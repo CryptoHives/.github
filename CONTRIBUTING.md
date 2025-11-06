@@ -1,4 +1,7 @@
-We'll be glad to accept patches and contributions to the project. There are just few guidelines we ask to follow.
+Contributions
+=============
+
+The Keepers are glad to accept patches and contributions to the project. There are just few guidelines we ask to follow.
 
 Contribution License Agreement
 ==============================

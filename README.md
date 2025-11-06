@@ -53,25 +53,19 @@ By default, packages use the following license tags:
 
 Some inherited components may use alternative MIT license headers, according to their origin and specific requirements those headers are retained.
 
-### No-Nonsense Clause
+---
+
+## 📝 No-Nonsense Matters
 
 This project is released under the MIT License because open collaboration matters.  
 However, the Keepers are well aware that MIT-licensed code often gets copied, repackaged, or commercialized without giving credit.  
 
 If you use this code, please do so responsibly:
-- Give visible credit to the CryptoHives Open Source Initiative and refer to the original source.
-- Contribute improvements back if you can.
+- Give visible credit to the **CryptoHives Open Source Initiative** or **The Keepers of the CryptoHives** and refer to the original source.
+- Contribute improvements back and report issues.
 - Don’t pretend you wrote it from scratch.
 
 Open source thrives on respect, not just permissive licenses.
-
----
-
-## 🐝 Maintained by
-
-**The Keepers of the CryptoHives**  
-> Secure foundations for open cryptography.  
-[https://cryptohives.org](https://cryptohives.org)
 
 ---
 
