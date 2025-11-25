@@ -1,18 +1,19 @@
-# 🛡️ CryptoHives Open Source Initiative 🐝
+## 🛡️ CryptoHives Open Source Initiative 🐝
 
-The **CryptoHives Open Source Initiative** brings consistent, portable, and auditable cryptography to .NET — managed code first, OS quirks gone.
-
-# 🐝 CryptoHives Open Source Initiative .NET Packages
-
-The **CryptoHives Open Source Initiative** is a collection of modern, high-assurance cryptographic libraries for .NET, developed and maintained by **The Keepers of the CryptoHives**. 
-Each package is designed for security, interoperability, and clarity — making it easy to build secure systems without sacrificing developer experience.
-There are also supporting packages which improve memory usage and thread synchronization for high performance transformation pipelines and for cryptography workloads.
+An open, community-driven cryptography and performance library collection for the .NET ecosystem.
 
 ---
 
 ## ✨ Overview
 
-The **CryptoHives.Foundation** project serves as the first core building block for .NET libraries under the **CryptoHives Open Source Initiative** umbrella.
+The **CryptoHives Open Source Initiative** is a collection of modern, high-assurance libraries for .NET, developed and maintained by **The Keepers of the CryptoHives**. 
+Each package is designed for security, interoperability, and clarity — making it easy to build secure systems for high performance transformation pipelines and for cryptography workloads without sacrificing developer experience.
+
+The **CryptoHives .NET Foundation** project serves as the first core building block for .NET libraries under the **CryptoHives Open Source Initiative** umbrella.
+
+---
+
+## 🏗️ Principles
 
 All implementations are developed **from first principles**, without reliance on operating system or native platform crypto providers, ensuring:
 
@@ -41,6 +42,19 @@ Instead, please follow the guidelines on the [CryptoHives Open Source Initiative
 
 ---
 
+## 📝 No-Nonsense Matters
+
+This project is released under the MIT License because open collaboration matters.  
+However, the Keepers are well aware that MIT-licensed code often gets copied, repackaged, or commercialized without giving credit.  
+
+If you use this code, please do so responsibly:
+- Give visible credit to the **CryptoHives Open Source Initiative** or **The Keepers of the CryptoHives** and refer to the original source.
+- Contribute improvements back and report issues.
+
+Open source thrives on respect, not just permissive licenses.
+
+---
+
 ## ⚖️ License
 
 Each component of the CryptoHives Open Source Initiative is licensed under a SPDX-compatible license.  
@@ -52,20 +66,6 @@ By default, packages use the following license tags:
 ```
 
 Some inherited components may use alternative MIT license headers, according to their origin and specific requirements those headers are retained.
-
----
-
-## 📝 No-Nonsense Matters
-
-This project is released under the MIT License because open collaboration matters.  
-However, the Keepers are well aware that MIT-licensed code often gets copied, repackaged, or commercialized without giving credit.  
-
-If you use this code, please do so responsibly:
-- Give visible credit to the **CryptoHives Open Source Initiative** or **The Keepers of the CryptoHives** and refer to the original source.
-- Contribute improvements back and report issues.
-- Don’t pretend you wrote it from scratch.
-
-Open source thrives on respect, not just permissive licenses.
 
 ---
 

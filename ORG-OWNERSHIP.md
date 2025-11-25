@@ -23,7 +23,6 @@ The CLA ensures consistent copyright ownership and unified licensing across all 
 
 The following assets are under the control of the **CryptoHives Open Source Initiative** and **The Keepers of the CryptoHives**:
 
-- Trademarks (reg. pending): "CryptoHives Open Source Initiative"
 - GitHub Organization: [github.com/CryptoHives](https://github.com/CryptoHives)
 - Azure Devops Organization: [dev.azure.com/CryptoHives](https://dev.azure.com/CryptoHives)
 - Primary Domains: [cryptohives.org](https://cryptohives.org), [cryptohives.de](https://cryptohives.de)
@@ -33,8 +32,10 @@ The following assets are under the control of the **CryptoHives Open Source Init
 
 ## 💬 Contact
 
-**Martin Regen**  
-Founder and Keeper — CryptoHives Open Source Initiative
+ Martin Regen 
+ 
+ Founder and Keeper — CryptoHives Open Source Initiative.
+ 
 📧 info@cryptohives.org
 🌐 https://cryptohives.org
 

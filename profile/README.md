@@ -1,9 +1,13 @@
+## 🛡️ CryptoHives Open Source Initiative 🐝
 
-# 🛡️ CryptoHives Open Source Initiative 🐝
+An open, community-driven cryptography and performance library collection for the .NET ecosystem.
 
-## **Cross-platform, fully managed cryptography for .NET**
+---
 
-**CryptoHives Open Source Initiative** is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
+## 🐝 CryptoHives .NET Foundation
+
+The **CryptoHives Open Source Initiative** is a collection of modern, high-assurance libraries for .NET, developed and maintained by **The Keepers of the CryptoHives**. 
+Each package is designed for security, interoperability, and clarity — making it easy to build secure systems for high performance transformation pipelines and for cryptography workloads without sacrificing developer experience.
 
 ---
 
@@ -36,3 +40,4 @@ Providing **managed implementations** ensures:
 ## Vision
 
 A world where .NET developers can rely on **consistent, portable, and auditable cryptography**, independent of OS quirks.
+
