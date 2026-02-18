@@ -13,23 +13,26 @@ The **CryptoHives .NET Foundation** project serves as the first core building bl
 
 ---
 
-## 🏗️ Principles
+## 🧪 Development Policy
 
-All implementations are developed **from first principles**, without reliance on operating system or native platform crypto providers, ensuring:
+Development may use AI-assisted tooling; no guarantee of clean-room provenance is claimed.
 
-- 🔒 **Security Transparency** — all algorithms are clean-room verified and auditable  
-- ⚙️ **Predictable Performance** — optimized memory usage and allocation-free APIs 
-- 🧱 **Composable Architecture** — designed for integration in modern .NET applications, from libraries to microservices  
+### 🔐 Managed Code Cryptography
+- All implementations are developed without reliance on operating system or native platform crypto providers
+- Fully managed implementations of cryptographic algorithms, written from NIST/RFC/ISO specifications and verified against official test vectors
+- No OS crypto dependency — deterministic results on every platform, in some cases even outperforming OS implementations
+- Review process includes algorithm validation and benchmarking against other OS, .NET or native reference implementations
 
----
+### ⚡ High-Performance Primitives
+- CryptoHives provides a growing set of utilities designed to optimize high performance transformation pipelines and cryptography workloads
+- All utilities and cryptographic algorithms are benchmarked against available OS and third party libraries with a focus on memory allocations and performance
 
-## 🧪 Clean-Room Policy
-
-All code within the **CryptoHives Open Source Initiative** is written and validated under **strict clean-room conditions**:
-
-- No reverse engineering or derived code from existing proprietary libraries  
-- Implementations are verified against public specifications and test vectors  
-- Review process includes formal algorithm validation and peer verification  
+### 🧱 Orthogonal Design
+- All development is done on free and open-source tools, e.g. .NET SDK, Visual Studio Community Edition, Visual Studio Code, GitHub, Azure DevOps, etc.
+- Each package is designed to be orthogonal and composable with other CryptoHives packages to avoid deep cross dependencies
+- Dependencies on other packages are kept to a minimum and shall only include widely adopted, well-maintained libraries, e.g. the Microsoft.Extensions
+- OS and hardware dependencies are avoided wherever possible to ensure deterministic behavior across all platforms and runtimes, specifically for security implementations
+- There is no intention to replace or shadow existing .NET class libraries; instead, CryptoHives packages are designed to complement and extend existing functionality
 
 ---
 
@@ -86,4 +89,4 @@ Please see the [Contributing Guide](https://github.com/CryptoHives/.github/blob/
 
 **CryptoHives Open Source Initiative — Secure. Deterministic. Performant.**
 
-© 2025 The Keepers of the CryptoHives. All rights reserved.
+© 2026 The Keepers of the CryptoHives. All rights reserved.
