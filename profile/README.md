@@ -17,76 +17,72 @@ The **CryptoHives .NET Foundation** project serves as the first core building bl
 
 Development may use AI-assisted tooling; no guarantee of clean-room provenance is claimed.
 
-### 🔐 Managed Code Cryptography
+### 🧱 Orthogonal by design
+- Everything is built with free and open-source tooling — the .NET SDK, Visual Studio Community, VS Code, GitHub, Azure DevOps.
+- Packages are meant to stand on their own; we try hard to avoid deep cross-dependencies between them.
+- Dependencies on anything outside CryptoHives are kept minimal and limited to widely adopted, well-maintained libraries (e.g. `Microsoft.Extensions.*`).
+- OS and hardware dependencies are avoided where possible, so behavior stays deterministic across platforms and runtimes — this matters especially for the crypto implementations.
+- None of this is meant to replace or compete with the existing .NET class library. It's meant to complement it.
+
+### ⚡ Built for performance
+- Every package targets high throughput with no steady-state allocations, for both transformation pipelines and crypto workloads.
+- Where it helps, algorithms use managed SIMD intrinsics with a scalar fallback for platforms that don't support them.
+- Performance and memory usage are benchmarked against reference implementations, not just asserted.
+
+### 🔐 Secure development policy
 - All implementations are developed without reliance on operating system or native platform crypto providers
 - Fully managed implementations of cryptographic algorithms, written from NIST/RFC/ISO specifications and verified against official test vectors
 - No OS crypto dependency — deterministic results on every platform, in some cases even outperforming OS implementations
 - Review process includes algorithm validation and benchmarking against other OS, .NET or native reference implementations
 
-### ⚡ High-Performance Primitives
-- CryptoHives provides a growing set of utilities designed to optimize high performance transformation pipelines and cryptography workloads
-- All utilities and cryptographic algorithms are benchmarked against available OS and third party libraries with a focus on memory allocations and performance
-
-### 🧱 Orthogonal Design
-- All development is done on free and open-source tools, e.g. .NET SDK, Visual Studio Community Edition, Visual Studio Code, GitHub, Azure DevOps, etc.
-- Each package is designed to be orthogonal and composable with other CryptoHives packages to avoid deep cross dependencies
-- Dependencies on other packages are kept to a minimum and shall only include widely adopted, well-maintained libraries, e.g. the Microsoft.Extensions
-- OS and hardware dependencies are avoided wherever possible to ensure deterministic behavior across all platforms and runtimes, specifically for security implementations
-- There is no intention to replace or shadow existing .NET class libraries; instead, CryptoHives packages are designed to complement and extend existing functionality
-
 ---
 
 ## 🔐 Security Policy
 
-Security is our top priority.
-
-If you discover a vulnerability, **please do not open a public issue.**  
-Instead, please follow the guidelines on the [CryptoHives Open Source Initiative Security Page](https://github.com/CryptoHives/.github/blob/main/SECURITY.md).
+Security comes first here. If you find a vulnerability, please don't open a public issue — follow the process described on the [CryptoHives Security Page](https://github.com/CryptoHives/.github/blob/main/SECURITY.md) instead.
 
 ---
 
-## 📝 No-Nonsense Matters
+## 🔏 Code Signing
 
-This project is released under the MIT License because open collaboration matters.  
-However, the Keepers are well aware that MIT-licensed code often gets copied, repackaged, or commercialized without giving credit.  
+Packages aren't code-signed yet. The Keepers plan to add signing once there's enough demand (and funding) to justify it.
 
-If you use this code, please do so responsibly:
-- Give visible credit to the **CryptoHives Open Source Initiative** or **The Keepers of the CryptoHives** and refer to the original source.
-- Contribute improvements back and report issues.
+---
 
-Open source thrives on respect, not just permissive licenses.
+## 📝 No-Nonsense License Matters
+
+This project is MIT-licensed because we believe in open collaboration. That said, we're aware MIT code gets sometimes copied, repackaged, and resold without credit — if you use this code, we'd appreciate it if you didn't do that:
+
+- Give visible credit to the **CryptoHives Open Source Initiative** / **The Keepers of the CryptoHives** and link back to the source.
+- Send improvements back upstream and report issues rather than silently forking.
+
+None of that is legally required under MIT — it's just what makes open source worth doing.
 
 ---
 
 ## ⚖️ License
 
-Each component of the CryptoHives Open Source Initiative is licensed under a SPDX-compatible license.  
-By default, packages use the following license tags:
+Every component is licensed under MIT. Source files carry the following SPDX header by default:
 
 ```csharp
 // SPDX-FileCopyrightText: <year> The Keepers of the CryptoHives
 // SPDX-License-Identifier: MIT
 ```
 
-Some inherited components may use alternative MIT license headers, according to their origin and specific requirements those headers are retained.
+A few inherited components use their original MIT-style headers instead, kept as-is for provenance.
 
 ---
 
 ## 🐝 About The Keepers of the CryptoHives
 
-The **CryptoHives Open Source Initiative** project is maintained by **The Keepers of the CryptoHives** —  
-a collective of developers dedicated to advancing open, verifiable, and high-performance cryptography in .NET.
+The CryptoHives Open Source Initiative is maintained by **The Keepers of the CryptoHives**, a loose collective of developers working on open, verifiable, high-performance cryptography for .NET.
 
 ---
 
 ## 🧩 Contributing
 
-Contributions, issue reports, and pull requests are welcome!
-
-Please see the [Contributing Guide](https://github.com/CryptoHives/.github/blob/main/CONTRIBUTING.md) before submitting code.
+Issues and pull requests are welcome. Please read the [Contributing Guide](https://github.com/CryptoHives/.github/blob/main/CONTRIBUTING.md) before sending a PR.
 
 ---
 
-**CryptoHives Open Source Initiative — Secure. Deterministic. Performant.**
-
-© 2026 The Keepers of the CryptoHives. All rights reserved.
+© 2026 The Keepers of the CryptoHives

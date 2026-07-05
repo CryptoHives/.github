@@ -1,4 +1,4 @@
-﻿
+
 # 🛡️ CryptoHives Open Source Initiative 🐝
 
 **CryptoHives Open Source Initiative** is the steward of an open-source initiative to re-implement all .NET security and cryptographic functionality in **pure managed code**, ensuring consistent behavior across all operating systems.
@@ -32,12 +32,12 @@ The following assets are under the control of the **CryptoHives Open Source Init
 
 ## 💬 Contact
 
- Martin Regen 
+ Dipl.-Phys. Univ. Martin Regen
  
  Founder and Keeper — CryptoHives Open Source Initiative.
  
-📧 info@cryptohives.org
-🌐 https://cryptohives.org
+ 📧 info@cryptohives.org
+ 🌐 https://cryptohives.org
 
 ---
 
