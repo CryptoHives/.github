@@ -13,7 +13,7 @@ The **CryptoHives .NET Foundation** project serves as the first core building bl
 
 ---
 
-## 🧪 Development Policy
+## 🧬 Development Policy
 
 Development may use AI-assisted tooling; no guarantee of clean-room provenance is claimed.
 
@@ -29,15 +29,21 @@ Development may use AI-assisted tooling; no guarantee of clean-room provenance i
 - Where it helps, algorithms use managed SIMD intrinsics with a scalar fallback for platforms that don't support them.
 - Performance and memory usage are benchmarked against reference implementations, not just asserted.
 
-### 🔐 Secure development policy
+### 🛡️ Secure development policy
 - All implementations are developed without reliance on operating system or native platform crypto providers
 - Fully managed implementations of cryptographic algorithms, written from NIST/RFC/ISO specifications and verified against official test vectors
 - No OS crypto dependency — deterministic results on every platform, in some cases even outperforming OS implementations
 - Review process includes algorithm validation and benchmarking against other OS, .NET or native reference implementations
 
+### 🤖 AI Usage in This Project
+AI coding assistants (such as Claude and GitHub Copilot) are used in this project as productivity tools — for drafting boilerplate, tests, and documentation, and for reviewing code. 
+Every AI-assisted contribution is reviewed, understood, and validated by a human maintainer before being merged; no code is accepted that the maintainers cannot fully explain and stand behind. 
+Given the security-sensitive nature of this library, all cryptographic logic is verified against the relevant specifications and test vectors regardless of how it was authored. 
+Contributors are welcome to use AI tools under the same principle: you are responsible for the correctness, licensing, and quality of what you submit, and purely machine-generated PRs without human understanding will be rejected.
+
 ---
 
-## 🔐 Security Policy
+## 🚨 Security Policy
 
 Security comes first here. If you find a vulnerability, please don't open a public issue — follow the process described on the [CryptoHives Security Page](https://github.com/CryptoHives/.github/blob/main/SECURITY.md) instead.
 
@@ -79,7 +85,7 @@ The CryptoHives Open Source Initiative is maintained by **The Keepers of the Cry
 
 ---
 
-## 🧩 Contributing
+## 🤝 Contributing
 
 Issues and pull requests are welcome. Please read the [Contributing Guide](https://github.com/CryptoHives/.github/blob/main/CONTRIBUTING.md) before sending a PR.
 
