@@ -18,7 +18,7 @@ The **CryptoHives Open Source Initiative** is maintained by **The Keepers of the
 
 ### [CryptoHives .NET Foundation](https://github.com/CryptoHives/Foundation)
 
-The first core building block of the initiative: pooled async primitives, ArrayPool-based buffers, and a fully managed cryptography library — including the complete NIST post-quantum set (ML-KEM, ML-DSA, SLH-DSA) on every target from .NET Framework 4.6.2 to .NET 10.
+The first core building block of the initiative: pooled async primitives, ArrayPool-based buffers, and a fully managed cryptography library.
 
 #### 📦 NuGet Packages
 
